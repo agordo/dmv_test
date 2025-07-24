@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California DMV Practice Test - Quantities Focus</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: 600;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .section {
+            background: white;
+            margin: 25px 0;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-left: 5px solid #2a5298;
+        }
+        
+        .section-title {
+            color: #1e3c72;
+            font-size: 1.4em;
+            font-weight: 600;
+            margin: 0 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .question {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .question-number {
+            color: #2a5298;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .question-text {
+            margin: 10px 0 15px 0;
+            font-weight: 500;
+            font-size: 1.05em;
+        }
+        
+        .answers {
+            margin: 15px 0;
+        }
+        
+        .answer {
+            margin: 8px 0;
+            padding: 10px 15px;
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .answer:hover {
+            border-color: #2a5298;
+            background: #f0f4ff;
+        }
+        
+        .answer.correct {
+            background: #d4edda;
+            border-color: #28a745;
+            font-weight: 500;
+        }
+        
+        .answer-label {
+            font-weight: bold;
+            color: #2a5298;
+            margin-right: 10px;
+        }
+        
+        .explanation {
+            margin-top: 15px;
+            padding: 15px;
+            background: #e7f3ff;
+            border-left: 4px solid #2a5298;
+            border-radius: 0 6px 6px 0;
+        }
+        
+        .explanation strong {
+            color: #1e3c72;
+        }
+        
+        .handbook-quote {
+            font-style: italic;
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+            border-left: 3px solid #28a745;
+        }
+        
+        .source-link {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-top: 8px;
+        }
+        
+        .source-link a {
+            color: #2a5298;
+            text-decoration: none;
+        }
+        
+        .source-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .instructions h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .show-answers-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            margin: 20px 0;
+            transition: background 0.3s ease;
+        }
+        
+        .show-answers-btn:hover {
+            background: #218838;
+        }
+        
+        .answers-hidden .answer.correct {
+            background: white;
+            border-color: #e9ecef;
+            font-weight: normal;
+        }
+        
+        .answers-hidden .explanation {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="answers-hidden"> 
+    <div class="header">
+        <h1>California DMV Practice Test</h1>
+        <p>Quantities Focus: Speeds, Distances, Blood Alcohol Levels, Ages & More</p>
+        <p>Based on the Official 2020 California Driver's Handbook</p>
+    </div>
+    
+    <div class="instructions">
+        <h3>📋 Test Instructions</h3>
+        <ul>
+            <li><strong>120 Questions</strong> organized by topic, focusing on specific quantities and measurements</li>
+            <li>Each question has <strong>4 multiple choice answers</strong></li>
+            <li>All answers are supported by <strong>direct quotes</strong> from the official California Driver's Handbook</li>
+            <li>Click "Show Answers" to reveal correct answers and explanations</li>
+            <li>Questions cover speeds, distances, blood alcohol levels, ages, fines, and other measurable requirements</li>
+        </ul>
+        <button class="show-answers-btn" onclick="toggleAnswers()">Show Answers & Explanations</button>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">🚗 Speed Limits & Traffic Controls</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 1</div>
+            <div class="question-text">What is the speed limit in a business or residential district unless otherwise posted?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 20 mph</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 25 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 30 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 35 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 25 mph</strong>
+                <div class="handbook-quote">"The speed limit is 25 mph, unless otherwise posted."</div>
+                <div class="source-link">Source: California Driver's Handbook - Business or Residential Districts</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 2</div>
+            <div class="question-text">What is the speed limit for a blind intersection?</div>
+            <div class="answers">
+                <div class="answer correct"><span class="answer-label">A)</span> 15 mph</div>
+                <div class="answer"><span class="answer-label">B)</span> 20 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 25 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 30 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: A) 15 mph</strong>
+                <div class="handbook-quote">"The speed limit for a blind intersection is 15 mph. An intersection is considered 'blind' if there are no stop signs at any corner and you cannot see for 100 feet in either direction during the last 100 feet before crossing."</div>
+                <div class="source-link">Source: California Driver's Handbook - Blind Intersections</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 3</div>
+            <div class="question-text">What is the speed limit in any alley?</div>
+            <div class="answers">
+                <div class="answer correct"><span class="answer-label">A)</span> 15 mph</div>
+                <div class="answer"><span class="answer-label">B)</span> 20 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 25 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 35 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: A) 15 mph</strong>
+                <div class="handbook-quote">"The speed limit in any alley is 15 mph."</div>
+                <div class="source-link">Source: California Driver's Handbook - Alleys</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 4</div>
+            <div class="question-text">What is the speed limit within 100 feet of a railroad crossing where you cannot see the tracks for 400 feet in both directions?</div>
+            <div class="answers">
+                <div class="answer correct"><span class="answer-label">A)</span> 15 mph</div>
+                <div class="answer"><span class="answer-label">B)</span> 20 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 25 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 35 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: A) 15 mph</strong>
+                <div class="handbook-quote">"The speed limit is 15 mph within 100 feet of a railroad crossing where you cannot see the tracks for 400 feet in both directions."</div>
+                <div class="source-link">Source: California Driver's Handbook - Near Railroad Tracks</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 5</div>
+            <div class="question-text">What is the maximum passing speed when safe to pass near streetcars, trolleys, or buses?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 5 mph</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 10 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 15 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 20 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 10 mph</strong>
+                <div class="handbook-quote">"The passing speed limit, when safe to pass, is no more than 10 mph. This speed limit applies at a safety zone or intersection where a streetcar, trolley, or bus is stopped and traffic is controlled by a peace officer or traffic signal light."</div>
+                <div class="source-link">Source: California Driver's Handbook - Near Streetcars, Trolleys, or Buses</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 6</div>
+            <div class="question-text">Unless otherwise posted, what is the maximum speed limit on a two-lane undivided highway?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 45 mph</div>
+                <div class="answer"><span class="answer-label">B)</span> 50 mph</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 55 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 65 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 55 mph</strong>
+                <div class="handbook-quote">"Unless otherwise posted, the maximum speed limit is 55 mph on a two-lane undivided highway and for vehicles towing trailers."</div>
+                <div class="source-link">Source: California Driver's Handbook - Speed Limits</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">📏 Distances & Following</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 7</div>
+            <div class="question-text">At 55 mph, approximately how many feet does it take to react and bring your vehicle to a complete stop?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 200 feet</div>
+                <div class="answer"><span class="answer-label">B)</span> 300 feet</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 400 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 500 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 400 feet</strong>
+                <div class="handbook-quote">"At 55 mph, it takes about 400 feet to react and bring your vehicle to a complete stop."</div>
+                <div class="source-link">Source: California Driver's Handbook - How Well Can You Stop?</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 8</div>
+            <div class="question-text">At 35 mph, approximately how many feet does it take to react and bring your vehicle to a complete stop?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 150 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 210 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 300 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 400 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 210 feet</strong>
+                <div class="handbook-quote">"At 35 mph, it takes about 210 feet to react and bring your vehicle to a complete stop."</div>
+                <div class="source-link">Source: California Driver's Handbook - How Well Can You Stop?</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 9</div>
+            <div class="question-text">What is the minimum distance you should maintain when passing a bicyclist?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 2 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 3 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 4 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 5 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 3 feet</strong>
+                <div class="handbook-quote">"When you cannot change lanes to pass a bicyclist, allow at least 3 feet between your vehicle and the bicyclist."</div>
+                <div class="source-link">Source: California Driver's Handbook - Bicycles in Travel Lanes</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 10</div>
+            <div class="question-text">How far ahead should you scan the road while driving?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 5-10 seconds</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 10-15 seconds</div>
+                <div class="answer"><span class="answer-label">C)</span> 15-20 seconds</div>
+                <div class="answer"><span class="answer-label">D)</span> 20-25 seconds</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 10-15 seconds</strong>
+                <div class="handbook-quote">"To avoid last minute moves, scan the road 10–15 seconds ahead of your vehicle so you can see hazards early."</div>
+                <div class="source-link">Source: California Driver's Handbook - Know What Is Ahead</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 11</div>
+            <div class="question-text">When parking parallel to a curb on a level street, how far from the curb should your wheels be?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 12 inches</div>
+                <div class="answer"><span class="answer-label">B)</span> 15 inches</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 18 inches</div>
+                <div class="answer"><span class="answer-label">D)</span> 24 inches</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 18 inches</strong>
+                <div class="handbook-quote">"When you park alongside a curb on a level street, the front and back wheels must be parallel and within 18 inches of the curb."</div>
+                <div class="source-link">Source: California Driver's Handbook - Special Parking Rules</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 12</div>
+            <div class="question-text">It is illegal to follow within how many feet behind any emergency vehicle with a siren or flashing lights?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 200 feet</div>
+                <div class="answer"><span class="answer-label">B)</span> 250 feet</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 300 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 400 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 300 feet</strong>
+                <div class="handbook-quote">"It is against the law to follow within 300 feet behind any fire engine, police vehicle, ambulance, or other emergency vehicle with a siren or flashing lights."</div>
+                <div class="source-link">Source: California Driver's Handbook - Emergency Vehicles</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 13</div>
+            <div class="question-text">How far from a fire hydrant must you park?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 10 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 15 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 20 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 25 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 15 feet</strong>
+                <div class="handbook-quote">"Never park or leave your vehicle: Within 15 feet of a fire hydrant or fire station driveway."</div>
+                <div class="source-link">Source: California Driver's Handbook - Illegal Parking</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 14</div>
+            <div class="question-text">How far from railroad tracks must you stop when warning lights are flashing?</div>
+            <div class="answers">
+                <div class="answer correct"><span class="answer-label">A)</span> At least 15 feet, but no more than 50 feet</div>
+                <div class="answer"><span class="answer-label">B)</span> At least 10 feet, but no more than 40 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> At least 20 feet, but no more than 60 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> Exactly 25 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: A) At least 15 feet, but no more than 50 feet</strong>
+                <div class="handbook-quote">"Stop at least 15 feet, but no more than 50 feet, from the nearest track when the crossing devices are active or a person warns you a train is coming."</div>
+                <div class="source-link">Source: California Driver's Handbook - Near Railroad Tracks</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 15</div>
+            <div class="question-text">How far from a crosswalk should you stop your vehicle for blind pedestrians?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> Within 3 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> Within 5 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> Within 10 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> Within 15 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) Within 5 feet</strong>
+                <div class="handbook-quote">"It is important that you stop your vehicle within 5 feet of the crosswalk."</div>
+                <div class="source-link">Source: California Driver's Handbook - Pedestrians Who Are Blind</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 16</div>
+            <div class="question-text">How far can you drive in a center left turn lane?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 100 feet maximum</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 200 feet maximum</div>
+                <div class="answer"><span class="answer-label">C)</span> 300 feet maximum</div>
+                <div class="answer"><span class="answer-label">D)</span> 500 feet maximum</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 200 feet maximum</strong>
+                <div class="handbook-quote">"You may only drive for 200 feet in the center left turn lane."</div>
+                <div class="source-link">Source: California Driver's Handbook - Center Left Turn Lanes</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 17</div>
+            <div class="question-text">How far before a right turn can you enter a bike lane?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> No more than 100 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> No more than 200 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> No more than 300 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> No more than 500 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) No more than 200 feet</strong>
+                <div class="handbook-quote">"If there is a bike lane, drive into the bike lane no more than 200 feet before the turn."</div>
+                <div class="source-link">Source: California Driver's Handbook - Right Turns</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 18</div>
+            <div class="question-text">How far before a turn should you signal?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 50 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 100 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 150 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 200 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 100 feet</strong>
+                <div class="handbook-quote">"Signal: During the last 100 feet before reaching the turning point (left or right turn)."</div>
+                <div class="source-link">Source: California Driver's Handbook - Signaling</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 19</div>
+            <div class="question-text">Within how many feet of intersections, bridges, tunnels, or railroad crossings should you not pass?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 50 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 100 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 150 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 200 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 100 feet</strong>
+                <div class="handbook-quote">"Do not pass: Within 100 feet of an intersection, bridge, tunnel, railroad crossing, or area that could cause concern."</div>
+                <div class="source-link">Source: California Driver's Handbook - When Approaching to Pass</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 20</div>
+            <div class="question-text">How far behind your vehicle should you place emergency flares or triangles?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 100-200 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 200-300 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 300-400 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 400-500 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 200-300 feet</strong>
+                <div class="handbook-quote">"Place emergency flares or triangles 200–300 feet behind the vehicle. This allows other drivers time to change lanes, if necessary."</div>
+                <div class="source-link">Source: California Driver's Handbook - Use Your Emergency Signals</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">🍺 Blood Alcohol & DUI</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 21</div>
+            <div class="question-text">What is the legal blood alcohol concentration (BAC) limit for drivers 21 years old or older?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 0.05%</div>
+                <div class="answer"><span class="answer-label">B)</span> 0.07%</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 0.08%</div>
+                <div class="answer"><span class="answer-label">D)</span> 0.10%</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 0.08%</strong>
+                <div class="handbook-quote">"It is illegal for any person to operate a vehicle with a BAC of: 0.08% or higher, if the person is 21 years old or older."</div>
+                <div class="source-link">Source: California Driver's Handbook - Blood Alcohol Concentration (BAC) Limits</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 22</div>
+            <div class="question-text">What is the legal blood alcohol concentration (BAC) limit for drivers under 21 years old?</div>
+            <div class="answers">
+                <div class="answer correct"><span class="answer-label">A)</span> 0.01%</div>
+                <div class="answer"><span class="answer-label">B)</span> 0.04%</div>
+                <div class="answer"><span class="answer-label">C)</span> 0.05%</div>
+                <div class="answer"><span class="answer-label">D)</span> 0.08%</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: A) 0.01%</strong>
+                <div class="handbook-quote">"It is illegal for any person to operate a vehicle with a BAC of: 0.01% or higher, if the person is under 21 years old."</div>
+                <div class="source-link">Source: California Driver's Handbook - Blood Alcohol Concentration (BAC) Limits</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 23</div>
+            <div class="question-text">What is the BAC limit for drivers operating commercial vehicles or when a passenger for hire is in the vehicle?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 0.01%</div>
+                <div class="answer"><span class="answer-label">B)</span> 0.02%</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 0.04%</div>
+                <div class="answer"><span class="answer-label">D)</span> 0.08%</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 0.04%</strong>
+                <div class="handbook-quote">"It is illegal for any person to operate a vehicle with a BAC of: 0.04% or higher, in any vehicle requiring a CDL—with or without a CDL issued to the driver. 0.04% or higher, when a passenger for hire is in the vehicle at the time of the offense."</div>
+                <div class="source-link">Source: California Driver's Handbook - Blood Alcohol Concentration (BAC) Limits</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 24</div>
+            <div class="question-text">For a first DUI conviction, how long is the standard driving privilege suspension?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 3 months</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 6 months</div>
+                <div class="answer"><span class="answer-label">C)</span> 9 months</div>
+                <div class="answer"><span class="answer-label">D)</span> 1 year</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 6 months</strong>
+                <div class="handbook-quote">"On the first conviction your driving privilege will be suspended for 6 months and you will be required to complete a DUI program, file a California Insurance Proof Certificate (SR 22/SR 1P), and pay all fees before your DL can be reinstated."</div>
+                <div class="source-link">Source: California Driver's Handbook - Court DUI Convictions</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 25</div>
+            <div class="question-text">If your BAC is 0.20% or higher and the court refers you to an enhanced DUI treatment program, how long will your DL be suspended?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 6 months</div>
+                <div class="answer"><span class="answer-label">B)</span> 8 months</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 10 months</div>
+                <div class="answer"><span class="answer-label">D)</span> 12 months</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 10 months</strong>
+                <div class="handbook-quote">"If your BAC is 0.20% or higher and the court refers you to an enhanced DUI treatment program, your DL will be suspended for 10 months."</div>
+                <div class="source-link">Source: California Driver's Handbook - Court DUI Convictions</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 26</div>
+            <div class="question-text">How long do DUI convictions remain on DMV records?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 5 years</div>
+                <div class="answer"><span class="answer-label">B)</span> 7 years</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 10 years</div>
+                <div class="answer"><span class="answer-label">D)</span> Permanent</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 10 years</strong>
+                <div class="handbook-quote">"All DUI convictions will remain on DMV records for 10 years. The courts and/or DMV may impose more stringent penalties for subsequent violations during that period."</div>
+                <div class="source-link">Source: California Driver's Handbook - Court DUI Convictions</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">👶 Ages & Minors</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 27</div>
+            <div class="question-text">What is the minimum age to apply for a learner's permit?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 15 years old</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 15½ years old</div>
+                <div class="answer"><span class="answer-label">C)</span> 16 years old</div>
+                <div class="answer"><span class="answer-label">D)</span> 16½ years old</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 15½ years old</strong>
+                <div class="handbook-quote">"To get a permit you must: Be at least 15½ years old."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Permit Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 28</div>
+            <div class="question-text">What is the minimum age to get a driver license for minors?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 15½ years old</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 16 years old</div>
+                <div class="answer"><span class="answer-label">C)</span> 17 years old</div>
+                <div class="answer"><span class="answer-label">D)</span> 18 years old</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 16 years old</strong>
+                <div class="handbook-quote">"You must: Be at least 16 years old."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Driver License Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 29</div>
+            <div class="question-text">How many hours of supervised driving practice must minors complete (with how many hours at night)?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 40 hours (5 hours night)</div>
+                <div class="answer"><span class="answer-label">B)</span> 45 hours (8 hours night)</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 50 hours (10 hours night)</div>
+                <div class="answer"><span class="answer-label">D)</span> 60 hours (15 hours night)</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 50 hours (10 hours night)</strong>
+                <div class="handbook-quote">"Provide parent(s) or guardian(s) signature(s) on your instruction permit certifying that you have completed 50 hours of supervised driving practice (10 hours must be night driving)."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Driver License Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 30</div>
+            <div class="question-text">During the first 12 months after getting a provisional license, between what hours may minors NOT drive?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 10 p.m. and 6 a.m.</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 11 p.m. and 5 a.m.</div>
+                <div class="answer"><span class="answer-label">C)</span> 12 a.m. and 5 a.m.</div>
+                <div class="answer"><span class="answer-label">D)</span> 12 a.m. and 6 a.m.</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 11 p.m. and 5 a.m.</strong>
+                <div class="handbook-quote">"During the first 12 months after you are licensed, you cannot drive between 11 p.m. and 5 a.m."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Driver License Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 31</div>
+            <div class="question-text">What is the minimum age for a person supervising a minor driver with a permit?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 18 years old</div>
+                <div class="answer"><span class="answer-label">B)</span> 21 years old</div>
+                <div class="answer"><span class="answer-label">C)</span> 23 years old</div>
+                <div class="answer correct"><span class="answer-label">D)</span> 25 years old</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: D) 25 years old</strong>
+                <div class="handbook-quote">"You must practice with a licensed California driver: parent, guardian, driving instructor, spouse, or adult 25 years old or older."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Permit Restrictions</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 32</div>
+            <div class="question-text">How many months must a minor hold an instruction permit before applying for a driver license?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 3 months</div>
+                <div class="answer"><span class="answer-label">B)</span> 4 months</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 6 months</div>
+                <div class="answer"><span class="answer-label">D)</span> 12 months</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 6 months</strong>
+                <div class="handbook-quote">"Have had a California instruction permit or an instruction permit from another state for at least 6 months."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Driver License Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 33</div>
+            <div class="question-text">What minimum age must physicians report patients diagnosed with lapses of consciousness or Alzheimer's disease?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 12 years old</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 14 years old</div>
+                <div class="answer"><span class="answer-label">C)</span> 16 years old</div>
+                <div class="answer"><span class="answer-label">D)</span> 18 years old</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 14 years old</strong>
+                <div class="handbook-quote">"Physicians and surgeons are required to report patients at least 14 years old and older who are diagnosed as having lapses of consciousness, Alzheimer's disease, or related disorders."</div>
+                <div class="source-link">Source: California Driver's Handbook - Conditions Physicians Must Report</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">💰 Fines & Penalties</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 34</div>
+            <div class="question-text">What is the maximum fine for a first DUI conviction?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $500</div>
+                <div class="answer"><span class="answer-label">B)</span> $750</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $1,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $1,500</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $1,000</strong>
+                <div class="handbook-quote">"If you are convicted of DUI of either alcohol and/or drugs or both, and you have an excessive BAC level, you may be sentenced to serve up to 6 months in jail and pay a fine between $390–$1,000 the first time you are convicted."</div>
+                <div class="source-link">Source: California Driver's Handbook - Court DUI Convictions</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 35</div>
+            <div class="question-text">What is the minimum fine for a first DUI conviction?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $250</div>
+                <div class="answer"><span class="answer-label">B)</span> $300</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $390</div>
+                <div class="answer"><span class="answer-label">D)</span> $500</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $390</strong>
+                <div class="handbook-quote">"If you are convicted of DUI of either alcohol and/or drugs or both, and you have an excessive BAC level, you may be sentenced to serve up to 6 months in jail and pay a fine between $390–$1,000 the first time you are convicted."</div>
+                <div class="source-link">Source: California Driver's Handbook - Court DUI Convictions</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 36</div>
+            <div class="question-text">How much can fines be in work zones when workers are present?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $500 or more</div>
+                <div class="answer"><span class="answer-label">B)</span> $750 or more</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $1,000 or more</div>
+                <div class="answer"><span class="answer-label">D)</span> $1,500 or more</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $1,000 or more</strong>
+                <div class="handbook-quote">"Fines for traffic violations in a work zone can be $1,000 or more."</div>
+                <div class="source-link">Source: California Driver's Handbook - Road Workers and Work Zones</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 37</div>
+            <div class="question-text">What is the maximum fine for assaulting a highway worker?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $1,000</div>
+                <div class="answer"><span class="answer-label">B)</span> $1,500</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $2,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $2,500</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $2,000</strong>
+                <div class="handbook-quote">"Anyone convicted of assaulting a highway worker faces fines of up to $2,000 and imprisonment for up to 1 year."</div>
+                <div class="source-link">Source: California Driver's Handbook - Road Workers and Work Zones</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 38</div>
+            <div class="question-text">What is the maximum fine for placard abuse (misusing disabled person parking placards)?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $500</div>
+                <div class="answer"><span class="answer-label">B)</span> $750</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $1,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $1,500</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $1,000</strong>
+                <div class="handbook-quote">"Placard abuse results in the loss of special parking privileges. It is also a misdemeanor and punishable by a fine of up to $1,000, imprisonment in county jail for up to 6 months, or both."</div>
+                <div class="source-link">Source: California Driver's Handbook - Blue Parking Zones</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 39</div>
+            <div class="question-text">What is the maximum fine for smoking in a vehicle when a minor is present?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $50</div>
+                <div class="answer"><span class="answer-label">B)</span> $75</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $100</div>
+                <div class="answer"><span class="answer-label">D)</span> $200</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $100</strong>
+                <div class="handbook-quote">"Do not smoke at any time when a minor is in the vehicle. You can be fined up to $100."</div>
+                <div class="source-link">Source: California Driver's Handbook - Things You Must Not Do</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">⏰ Time Requirements</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 40</div>
+            <div class="question-text">Within how many days must new California residents apply for a California driver license?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 5 days</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 10 days</div>
+                <div class="answer"><span class="answer-label">C)</span> 15 days</div>
+                <div class="answer"><span class="answer-label">D)</span> 30 days</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 10 days</strong>
+                <div class="handbook-quote">"When you become a California resident and you want to drive in California, you must apply for a California DL within 10 days."</div>
+                <div class="source-link">Source: California Driver's Handbook - New California Residents</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 41</div>
+            <div class="question-text">Within how many days must you notify DMV of an address change?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 5 days</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 10 days</div>
+                <div class="answer"><span class="answer-label">C)</span> 15 days</div>
+                <div class="answer"><span class="answer-label">D)</span> 30 days</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 10 days</strong>
+                <div class="handbook-quote">"When you move, you must give DMV your new address within 10 days."</div>
+                <div class="source-link">Source: California Driver's Handbook - Address Changes</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 42</div>
+            <div class="question-text">Within how many days must you report a collision to DMV if there is more than $1,000 in damage or anyone is injured?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 5 days</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 10 days</div>
+                <div class="answer"><span class="answer-label">C)</span> 15 days</div>
+                <div class="answer"><span class="answer-label">D)</span> 30 days</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 10 days</strong>
+                <div class="handbook-quote">"You (or your insurance agent, broker, or legal representative) must make a written report to DMV within 10 days."</div>
+                <div class="source-link">Source: California Driver's Handbook - Reporting a Collision</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 43</div>
+            <div class="question-text">Within how many hours must you make a written report to police if someone is killed or injured in a collision?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 12 hours</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 24 hours</div>
+                <div class="answer"><span class="answer-label">C)</span> 48 hours</div>
+                <div class="answer"><span class="answer-label">D)</span> 72 hours</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 24 hours</strong>
+                <div class="handbook-quote">"You (or your insurance agent, broker, or legal representative) must make a written report to the police or California Highway Patrol (CHP) within 24 hours of the collision if someone is killed or injured."</div>
+                <div class="source-link">Source: California Driver's Handbook - Involved in a Collision</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 44</div>
+            <div class="question-text">How many minutes after sunset must you turn on your headlights?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 15 minutes</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 30 minutes</div>
+                <div class="answer"><span class="answer-label">C)</span> 45 minutes</div>
+                <div class="answer"><span class="answer-label">D)</span> 60 minutes</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 30 minutes</strong>
+                <div class="handbook-quote">"You must turn on your headlights 30 minutes after sunset and leave them on until 30 minutes before sunrise."</div>
+                <div class="source-link">Source: California Driver's Handbook - Things You Must Do</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 45</div>
+            <div class="question-text">If a minor fails a driving test, how many days must they wait before retesting?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 7 days</div>
+                <div class="answer"><span class="answer-label">B)</span> 10 days</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 14 days</div>
+                <div class="answer"><span class="answer-label">D)</span> 21 days</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 14 days</strong>
+                <div class="handbook-quote">"If you fail the driving test, you must pay a retest fee, schedule a subsequent test, and wait 14 days (2 weeks), not including the day the test was failed before you are retested."</div>
+                <div class="source-link">Source: California Driver's Handbook - Minors' Driver License Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 46</div>
+            <div class="question-text">How long should you signal before changing lanes on a freeway?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> At least 3 seconds</div>
+                <div class="answer correct"><span class="answer-label">B)</span> At least 5 seconds</div>
+                <div class="answer"><span class="answer-label">C)</span> At least 7 seconds</div>
+                <div class="answer"><span class="answer-label">D)</span> At least 10 seconds</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) At least 5 seconds</strong>
+                <div class="handbook-quote">"Signal: At least 5 seconds before you change lanes on a freeway."</div>
+                <div class="source-link">Source: California Driver's Handbook - Signaling</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">🚙 Vehicle & Equipment Specifications</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 47</div>
+            <div class="question-text">What is the maximum length for a housecar that can be driven with a Class C license?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 35 feet</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 40 feet</div>
+                <div class="answer"><span class="answer-label">C)</span> 45 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 50 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 40 feet</strong>
+                <div class="handbook-quote">"You may drive a: Housecar 40 feet or less in length."</div>
+                <div class="source-link">Source: California Driver's Handbook - Class C DL</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 48</div>
+            <div class="question-text">What is the maximum GVWR for a 2-axle vehicle you can drive with a Class C license?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 20,000 lbs</div>
+                <div class="answer"><span class="answer-label">B)</span> 24,000 lbs</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 26,000 lbs</div>
+                <div class="answer"><span class="answer-label">D)</span> 30,000 lbs</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 26,000 lbs</strong>
+                <div class="handbook-quote">"You may drive a: 2-axle vehicle with a gross vehicle weight rating (GVWR) of 26,000 pounds (lbs.) or less."</div>
+                <div class="source-link">Source: California Driver's Handbook - Class C DL</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 49</div>
+            <div class="question-text">How far must cargo extending from the rear of your vehicle be flagged?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 2 feet</div>
+                <div class="answer"><span class="answer-label">B)</span> 3 feet</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 4 feet</div>
+                <div class="answer"><span class="answer-label">D)</span> 5 feet</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 4 feet</strong>
+                <div class="handbook-quote">"Cargo extending more than 4 feet from the back rear bumper of the vehicle must display a 12-inch red or fluorescent orange square flag or 2 red lights at night."</div>
+                <div class="source-link">Source: California Driver's Handbook - Things You Must Not Do</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 50</div>
+            <div class="question-text">What size square flag must be displayed on cargo extending more than 4 feet from your vehicle?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 8-inch</div>
+                <div class="answer"><span class="answer-label">B)</span> 10-inch</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 12-inch</div>
+                <div class="answer"><span class="answer-label">D)</span> 16-inch</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 12-inch</strong>
+                <div class="handbook-quote">"Cargo extending more than 4 feet from the back rear bumper of the vehicle must display a 12-inch red or fluorescent orange square flag or 2 red lights at night."</div>
+                <div class="source-link">Source: California Driver's Handbook - Things You Must Not Do</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 51</div>
+            <div class="question-text">How far beyond the right fender can cargo extend from a passenger vehicle?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 3 inches</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 6 inches</div>
+                <div class="answer"><span class="answer-label">C)</span> 9 inches</div>
+                <div class="answer"><span class="answer-label">D)</span> 12 inches</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 6 inches</strong>
+                <div class="handbook-quote">"Do not carry anything in or on a passenger vehicle which extends beyond the fenders on the left side or more than 6 inches beyond the fenders on the right side."</div>
+                <div class="source-link">Source: California Driver's Handbook - Things You Must Not Do</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 52</div>
+            <div class="question-text">What is the maximum speed for Neighborhood Electric Vehicles (NEVs) and Low-Speed Vehicles (LSVs)?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 20 mph</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 25 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 30 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 35 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 25 mph</strong>
+                <div class="handbook-quote">"NEVs and LSVs reach a maximum speed of 25 mph."</div>
+                <div class="source-link">Source: California Driver's Handbook - Neighborhood Electric Vehicles (NEV) and Low-Speed Vehicles (LSV)</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 53</div>
+            <div class="question-text">How far should you sit from the air bag cover?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> At least 8 inches</div>
+                <div class="answer correct"><span class="answer-label">B)</span> At least 10 inches</div>
+                <div class="answer"><span class="answer-label">C)</span> At least 12 inches</div>
+                <div class="answer"><span class="answer-label">D)</span> At least 15 inches</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) At least 10 inches</strong>
+                <div class="handbook-quote">"Ride at least 10 inches (measured from the center of the steering wheel to your breastbone) from the air bag cover, if you can do this while maintaining full control of the vehicle."</div>
+                <div class="source-link">Source: California Driver's Handbook - Riding Safely with Air Bags</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">💵 Financial Requirements</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 54</div>
+            <div class="question-text">What is the minimum liability insurance coverage required for a single death or injury?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $10,000</div>
+                <div class="answer correct"><span class="answer-label">B)</span> $15,000</div>
+                <div class="answer"><span class="answer-label">C)</span> $20,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $25,000</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) $15,000</strong>
+                <div class="handbook-quote">"The minimum amount your insurance must cover per collision is: $15,000 for a single death or injury."</div>
+                <div class="source-link">Source: California Driver's Handbook - Insurance Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 55</div>
+            <div class="question-text">What is the minimum liability insurance coverage required for death or injury to more than one person?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $25,000</div>
+                <div class="answer correct"><span class="answer-label">B)</span> $30,000</div>
+                <div class="answer"><span class="answer-label">C)</span> $35,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $40,000</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) $30,000</strong>
+                <div class="handbook-quote">"The minimum amount your insurance must cover per collision is: $30,000 for death or injury to more than one person."</div>
+                <div class="source-link">Source: California Driver's Handbook - Insurance Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 56</div>
+            <div class="question-text">What is the minimum liability insurance coverage required for property damage?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $3,000</div>
+                <div class="answer correct"><span class="answer-label">B)</span> $5,000</div>
+                <div class="answer"><span class="answer-label">C)</span> $7,500</div>
+                <div class="answer"><span class="answer-label">D)</span> $10,000</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) $5,000</strong>
+                <div class="handbook-quote">"The minimum amount your insurance must cover per collision is: $5,000 for property damage."</div>
+                <div class="source-link">Source: California Driver's Handbook - Insurance Requirements</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 57</div>
+            <div class="question-text">What is the required deposit amount with DMV as an alternative to insurance?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $25,000</div>
+                <div class="answer"><span class="answer-label">B)</span> $30,000</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $35,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $40,000</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $35,000</strong>
+                <div class="handbook-quote">"There are 4 forms of financial responsibility: A motor vehicle liability insurance policy. A deposit of $35,000 with DMV."</div>
+                <div class="source-link">Source: California Driver's Handbook - Financial Responsibility</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 58</div>
+            <div class="question-text">What is the amount required for a surety bond as financial responsibility?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> $25,000</div>
+                <div class="answer"><span class="answer-label">B)</span> $30,000</div>
+                <div class="answer correct"><span class="answer-label">C)</span> $35,000</div>
+                <div class="answer"><span class="answer-label">D)</span> $40,000</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) $35,000</strong>
+                <div class="handbook-quote">"There are 4 forms of financial responsibility: A surety bond for $35,000 obtained from a company licensed to do business in California."</div>
+                <div class="source-link">Source: California Driver's Handbook - Financial Responsibility</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">🚨 Violation Points & Traffic Records</h2>
+        
+        <div class="question">
+            <div class="question-number">Question 59</div>
+            <div class="question-text">How many points in 12 months may result in being considered a negligent operator?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 3 points</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 4 points</div>
+                <div class="answer"><span class="answer-label">C)</span> 5 points</div>
+                <div class="answer"><span class="answer-label">D)</span> 6 points</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 4 points</strong>
+                <div class="handbook-quote">"You may be considered a negligent operator when your driving record shows one of the following 'point count' totals: 4 points in 12 months."</div>
+                <div class="source-link">Source: California Driver's Handbook - Points on the Driver Record</div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 60</div>
+            <div class="question-text">How many points in 36 months may result in being considered a negligent operator?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 6 points</div>
+                <div class="answer"><span class="answer-label">B)</span> 7 points</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 8 points</div>
+                <div class="answer"><span class="answer-label">D)</span> 10 points</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 8 points</strong>
+                <div class="handbook-quote">"You may be considered a negligent operator when your driving record shows one of the following 'point count' totals: 8 points in 36 months."</div>
+                <div class="source-link">Source: California Driver's Handbook - Points on the Driver Record</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">🚨🚨🚨 Albert's notes from 2020 🚨🚨🚨</h2>
+        <div class="question">
+            <div class="question-number">Question 61</div>
+            <div class="question-text">What is the recommended following distance to avoid tailgating?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 1 second</div>
+                <div class="answer"><span class="answer-label">B)</span> 2 seconds</div>
+                <div class="answer correct"><span class="answer-label">C)</span> 3 seconds</div>
+                <div class="answer"><span class="answer-label">D)</span> 4 seconds</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: C) 3 seconds</strong>
+                <div class="handbook-quote">"Use the 3-second rule to avoid tailgating: when the vehicle ahead passes a fixed point, count 'one-thousand-one, one-thousand-two, one-thousand-three.' If you pass the point before finishing, you're following too closely."</div>
+                <div class="source-link">Source: <a href="#space-cushion">California Driver's Handbook – Space Cushion</a></div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 62</div>
+            <div class="question-text">What is the maximum imprisonment penalty for causing serious bodily injury during a police pursuit?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 4 years in state prison</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 7 years in state prison</div>
+                <div class="answer"><span class="answer-label">C)</span> 1 year in county jail</div>
+                <div class="answer"><span class="answer-label">D)</span> 5 years in state prison</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 7 years in state prison</strong>
+                <div class="handbook-quote">"If a person is convicted of causing serious bodily injury during a police pursuit, they face imprisonment in a state prison for up to 7 years or in a county jail for not more than 1 year."</div>
+                <div class="source-link">Source: <a href="#police-pursuit">California Driver's Handbook – Evading Law Enforcement</a></div>
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-number">Question 63</div>
+            <div class="question-text">What is the maximum speed limit for a vehicle towing a trailer on a two-lane undivided highway unless otherwise posted?</div>
+            <div class="answers">
+                <div class="answer"><span class="answer-label">A)</span> 65 mph</div>
+                <div class="answer correct"><span class="answer-label">B)</span> 55 mph</div>
+                <div class="answer"><span class="answer-label">C)</span> 60 mph</div>
+                <div class="answer"><span class="answer-label">D)</span> 50 mph</div>
+            </div>
+            <div class="explanation">
+                <strong>Correct Answer: B) 55 mph</strong>
+                <div class="handbook-quote">"The maximum speed limit for vehicles towing trailers on a two-lane undivided highway is 55 mph, unless otherwise posted."</div>
+                <div class="source-link">Source: <a href="#speed-limits">California Driver's Handbook – Speed Limits</a></div>
+            </div>
+        </div>
+    
+
+    <div class="question">
+        <div class="question-number">Question 64</div>
+        <div class="question-text">What must you do if you are driving slowly on a two-lane road and five or more vehicles are following you?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Increase speed immediately</div>
+            <div class="answer correct"><span class="answer-label">B)</span> Drive into a turnout area to let vehicles pass</div>
+            <div class="answer"><span class="answer-label">C)</span> Turn on hazard lights</div>
+            <div class="answer"><span class="answer-label">D)</span> Pull over only if a sign requires it</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) Drive into a turnout area to let vehicles pass</strong>
+            <div class="handbook-quote">"If you are driving slowly on a two-lane highway or road where passing is unsafe, and five or more vehicles are following you, you must drive into a turnout area to let them pass."</div>
+            <div class="source-link">Source: <a href="#lane-control">California Driver's Handbook – Lane Control</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 65</div>
+        <div class="question-text">What is the penalty for littering on a California roadside?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> $500 fine and no record</div>
+            <div class="answer correct"><span class="answer-label">B)</span> $1,000 fine and a mark on your driving record</div>
+            <div class="answer"><span class="answer-label">C)</span> $750 fine and community service</div>
+            <div class="answer"><span class="answer-label">D)</span> Verbal warning and litter removal</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) $1,000 fine and a mark on your driving record</strong>
+            <div class="handbook-quote">"Do not litter on the roadside. The fine is $1,000 and you may be forced to pick up what you threw away. Littering convictions will show on your driving record."</div>
+            <div class="source-link">Source: <a href="#rules-of-the-road">California Driver's Handbook – Rules of the Road</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 66</div>
+        <div class="question-text">On a steep mountain road where neither vehicle can pass, which vehicle must yield and back up?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> The vehicle going downhill</div>
+            <div class="answer"><span class="answer-label">B)</span> The vehicle going uphill</div>
+            <div class="answer"><span class="answer-label">C)</span> The smaller vehicle</div>
+            <div class="answer"><span class="answer-label">D)</span> The faster-moving vehicle</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) The vehicle going downhill</strong>
+            <div class="handbook-quote">"When two vehicles meet on a steep mountain road where neither can pass, the vehicle facing downhill must yield the right-of-way by backing up until the vehicle going uphill can pass."</div>
+            <div class="source-link">Source: <a href="#mountain-driving">California Driver's Handbook – Mountain Driving</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 67</div>
+        <div class="question-text">At an intersection with no signs or signals, when should you yield?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Only to pedestrians</div>
+            <div class="answer"><span class="answer-label">B)</span> To vehicles on your left</div>
+            <div class="answer"><span class="answer-label">C)</span> Only when entering from a smaller street</div>
+            <div class="answer correct"><span class="answer-label">D)</span> To vehicles that arrive first or are on your right</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: D) To vehicles that arrive first or are on your right</strong>
+            <div class="handbook-quote">"If you reach an intersection, yield to vehicles that reach the intersection first or that are already in the intersection. If you and another vehicle reach the intersection at the same time, yield to the vehicle on your right."</div>
+            <div class="source-link">Source: <a href="#right-of-way">California Driver's Handbook – Right-of-Way Rules</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 68</div>
+        <div class="question-text">What defines a “blind intersection” and what is the speed limit through it?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> No lights and less than 150 feet of visibility, 10 mph</div>
+            <div class="answer correct"><span class="answer-label">B)</span> No stop signs and less than 100 feet of visibility, 15 mph</div>
+            <div class="answer"><span class="answer-label">C)</span> One stop sign and any visibility, 20 mph</div>
+            <div class="answer"><span class="answer-label">D)</span> No pedestrians visible, 25 mph</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) No stop signs and less than 100 feet of visibility, 15 mph</strong>
+            <div class="handbook-quote">"An intersection is considered 'blind' if there are no stop signs on any corner and you cannot see for 100 feet in either direction during the last 100 feet before crossing. The speed limit for blind intersections is 15 mph."</div>
+            <div class="source-link">Source: <a href="#speed-limits">California Driver's Handbook – Speed Limits</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 69</div>
+        <div class="question-text">When should you use high-beam headlights at night?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> On city streets at all times</div>
+            <div class="answer correct"><span class="answer-label">B)</span> In open country or dark streets when legal and safe</div>
+            <div class="answer"><span class="answer-label">C)</span> Only on freeways</div>
+            <div class="answer"><span class="answer-label">D)</span> When following another vehicle closely</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) In open country or dark streets when legal and safe</strong>
+            <div class="handbook-quote">"Use your high-beam headlights whenever possible in open country or on dark city streets, as long as it is not illegal and you do not blind oncoming drivers. Dim your lights when necessary."</div>
+            <div class="source-link">Source: <a href="#headlights">California Driver's Handbook – Headlights</a></div>
+        </div>
+    </div>
+
+
+    <div class="question">
+        <div class="question-number">Question 70</div>
+        <div class="question-text">How is a center left turn lane marked?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Solid white lines on both sides</div>
+            <div class="answer"><span class="answer-label">B)</span> Broken yellow lines on both sides</div>
+            <div class="answer correct"><span class="answer-label">C)</span> Solid and broken yellow lines</div>
+            <div class="answer"><span class="answer-label">D)</span> Dashed white lines</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) Solid and broken yellow lines</strong>
+            <div class="handbook-quote">"A center left turn lane is marked by parallel solid and dashed yellow lines and may have white arrows on the pavement indicating left turns."</div>
+            <div class="source-link">Source: <a href="#lane-markings">California Driver's Handbook – Lane Markings</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 71</div>
+        <div class="question-text">When turning left from a one-way street onto another one-way street, into which lane may you turn?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Only the far left lane</div>
+            <div class="answer"><span class="answer-label">B)</span> Any lane going in your direction</div>
+            <div class="answer correct"><span class="answer-label">C)</span> Any safely open lane</div>
+            <div class="answer"><span class="answer-label">D)</span> The lane closest to the curb</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) Any safely open lane</strong>
+            <div class="handbook-quote">"To turn left from a one-way street onto another one-way street, begin the turn from the left lane and turn into any lane that is safely open."</div>
+            <div class="source-link">Source: <a href="#turns">California Driver's Handbook – Turns</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 72</div>
+        <div class="question-text">What is a limit line (also known as a stop line)?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> A red dashed line for emergency stops</div>
+            <div class="answer"><span class="answer-label">B)</span> A narrow yellow line at crosswalks</div>
+            <div class="answer correct"><span class="answer-label">C)</span> A wide white line painted across a street</div>
+            <div class="answer"><span class="answer-label">D)</span> A sign instructing where to yield</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) A wide white line painted across a street</strong>
+            <div class="handbook-quote">"A limit line (also known as a stop line) is a wide white line painted across a street at an intersection. Stop before you reach it."</div>
+            <div class="source-link">Source: <a href="#traffic-signals-and-road-markings">California Driver's Handbook – Traffic Signals and Road Markings</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 73</div>
+        <div class="question-text">Is it legal to exceed the speed limit while passing another vehicle?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Yes, if it’s safe to do so</div>
+            <div class="answer"><span class="answer-label">B)</span> Yes, on a two-lane road</div>
+            <div class="answer correct"><span class="answer-label">C)</span> No, exceeding the speed limit is illegal even while passing</div>
+            <div class="answer"><span class="answer-label">D)</span> Only if both drivers signal</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) No, exceeding the speed limit is illegal even while passing</strong>
+            <div class="handbook-quote">"It is illegal to exceed the speed limit when passing. Make sure you have enough time and space to pass safely."</div>
+            <div class="source-link">Source: <a href="#speed-laws">California Driver's Handbook – Speed Laws</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 74</div>
+        <div class="question-text">What is the maximum speed limit on most California highways?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 70 mph</div>
+            <div class="answer"><span class="answer-label">B)</span> 60 mph</div>
+            <div class="answer correct"><span class="answer-label">C)</span> 65 mph (70 mph where posted)</div>
+            <div class="answer"><span class="answer-label">D)</span> 75 mph on expressways</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) 65 mph (70 mph where posted)</strong>
+            <div class="handbook-quote">"The maximum speed limit on most California highways is 65 mph. You may drive 70 mph where posted."</div>
+            <div class="source-link">Source: <a href="#speed-limits">California Driver's Handbook – Speed Limits</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 75</div>
+        <div class="question-text">When pulling out from parallel parking on the right-hand side, what must you do?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Signal right and check right mirror</div>
+            <div class="answer"><span class="answer-label">B)</span> Honk before moving</div>
+            <div class="answer correct"><span class="answer-label">C)</span> Signal left and look over your left shoulder</div>
+            <div class="answer"><span class="answer-label">D)</span> Open your door to check traffic</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) Signal left and look over your left shoulder</strong>
+            <div class="handbook-quote">"When you are parallel parked on the right-hand side of the street, signal a left turn and look over your left shoulder before pulling out into traffic."</div>
+            <div class="source-link">Source: <a href="#parking">California Driver's Handbook – Parking</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 76</div>
+        <div class="question-text">What does a yellow line indicate on the left edge of a one-way roadway?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Lane for slow-moving traffic</div>
+            <div class="answer correct"><span class="answer-label">B)</span> Left edge of a one-way roadway</div>
+            <div class="answer"><span class="answer-label">C)</span> Passing zone only</div>
+            <div class="answer"><span class="answer-label">D)</span> Center turn lane</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) Left edge of a one-way roadway</strong>
+            <div class="handbook-quote">"Yellow lines are also used as left-edge lines on one-way roadways."</div>
+            <div class="source-link">Source: <a href="#road-markings">California Driver's Handbook – Lane Markings</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 77</div>
+        <div class="question-text">What does a steady yellow arrow signal indicate to drivers?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> You must turn immediately</div>
+            <div class="answer"><span class="answer-label">B)</span> Turn is protected indefinitely</div>
+            <div class="answer correct"><span class="answer-label">C)</span> Protected turn period is ending; prepare to stop</div>
+            <div class="answer"><span class="answer-label">D)</span> Stop completely before turning</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) Protected turn period is ending; prepare to stop</strong>
+            <div class="handbook-quote">"A steady yellow arrow warns you that the 'protected' turning time is ending. Be prepared to obey the next signal, which could be a green or red light or a red arrow."</div>
+            <div class="source-link">Source: <a href="#traffic-signals">California Driver's Handbook – Traffic Signals</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 78</div>
+        <div class="question-text">What does a solid white line along the right or left edge of a road signify?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Passing zone</div>
+            <div class="answer correct"><span class="answer-label">B)</span> Edge of the traffic lane, only to be crossed when entering or leaving the shoulder</div>
+            <div class="answer"><span class="answer-label">C)</span> Divider between two-way traffic</div>
+            <div class="answer"><span class="answer-label">D)</span> Center lane divider</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) Edge of the traffic lane, only to be crossed when entering or leaving the shoulder</strong>
+            <div class="handbook-quote">"The right or left edges of the highway are marked with a solid white line. This line indicates the outer edge of the traffic lane, and it may be crossed only by traffic moving to or from the shoulder."</div>
+            <div class="source-link">Source: <a href="#lane-markings">California Driver's Handbook – Lane Markings</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 79</div>
+        <div class="question-text">What does a triangular orange sign on the back of a vehicle indicate?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Hazardous materials vehicle</div>
+            <div class="answer"><span class="answer-label">B)</span> Emergency vehicle</div>
+            <div class="answer correct"><span class="answer-label">C)</span> Vehicle cannot travel faster than 25 mph</div>
+            <div class="answer"><span class="answer-label">D)</span> Oversized vehicle</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) Vehicle cannot travel faster than 25 mph</strong>
+            <div class="handbook-quote">"The triangular sign on the back of a slow-moving vehicle means that the vehicle cannot travel faster than 25 mph."</div>
+            <div class="source-link">Source: <a href="#special-vehicles">California Driver's Handbook – Special Vehicles</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 80</div>
+        <div class="question-text">What is an interchange?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> A rest stop along a highway</div>
+            <div class="answer"><span class="answer-label">B)</span> A merge area for parking lots</div>
+            <div class="answer correct"><span class="answer-label">C)</span> A freeway connection made by a series of ramps</div>
+            <div class="answer"><span class="answer-label">D)</span> A toll plaza</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) A freeway connection made by a series of ramps</strong>
+            <div class="handbook-quote">"An interchange is the connection of a freeway to a road or another freeway by a series of ramps. The connecting roadways allow you to leave one road and enter another safely without disrupting the flow of traffic."</div>
+            <div class="source-link">Source: <a href="#freeway-driving">California Driver's Handbook – Freeway Driving</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 81</div>
+        <div class="question-text">At 55 mph, how far will your vehicle travel before it can come to a complete stop in good conditions?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> About 200 feet</div>
+            <div class="answer correct"><span class="answer-label">B)</span> About 400 feet</div>
+            <div class="answer"><span class="answer-label">C)</span> About 300 feet</div>
+            <div class="answer"><span class="answer-label">D)</span> About 500 feet</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) About 400 feet</strong>
+            <div class="handbook-quote">"At 55 mph, your vehicle will travel about 400 feet in the time it takes you to react and bring it to a complete stop under good conditions."</div>
+            <div class="source-link">Source: <a href="#safe-driving-practices">California Driver's Handbook – Safe Driving Practices</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 82</div>
+        <div class="question-text">When is it legal to make a left turn on a red light in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Never</div>
+            <div class="answer"><span class="answer-label">B)</span> When turning onto a one-way street from any street</div>
+            <div class="answer correct"><span class="answer-label">C)</span> From a one-way street onto another one-way street after a complete stop</div>
+            <div class="answer"><span class="answer-label">D)</span> Only when no pedestrians are present</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) From a one-way street onto another one-way street after a complete stop</strong>
+            <div class="handbook-quote">"It is against the law to make a left turn on red except when turning from a one-way street onto another one-way street, after a complete stop and yielding to traffic and pedestrians."</div>
+            <div class="source-link">Source: <a href="#turns">California Driver's Handbook – Turns</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 83</div>
+        <div class="question-text">What should you do if your vehicle begins to skid?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> Ease off the gas and steer in the direction of the skid</div>
+            <div class="answer"><span class="answer-label">B)</span> Slam on the brakes</div>
+            <div class="answer"><span class="answer-label">C)</span> Turn the wheel in the opposite direction</div>
+            <div class="answer"><span class="answer-label">D)</span> Shift into neutral</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) Ease off the gas and steer in the direction of the skid</strong>
+            <div class="handbook-quote">"If your vehicle starts to skid, ease your foot off the gas pedal. Do not brake. Turn the steering wheel in the direction of the skid."</div>
+            <div class="source-link">Source: <a href="#emergencies">California Driver's Handbook – Emergencies</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 84</div>
+        <div class="question-text">Where should your left wheels be when turning left from a two-way street onto a one-way street?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Close to the curb</div>
+            <div class="answer correct"><span class="answer-label">B)</span> As close as possible to the yellow dividing line</div>
+            <div class="answer"><span class="answer-label">C)</span> In the far right lane</div>
+            <div class="answer"><span class="answer-label">D)</span> Anywhere in the lane</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) As close as possible to the yellow dividing line</strong>
+            <div class="handbook-quote">"When turning left from a two-way street onto a one-way street, start the turn with your left wheel as close as possible to the yellow dividing line."</div>
+            <div class="source-link">Source: <a href="#turns">California Driver's Handbook – Turns</a></div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-number">Question 85</div>
+        <div class="question-text">What can help prevent highway hypnosis on long expressway drives?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Drinking coffee</div>
+            <div class="answer correct"><span class="answer-label">B)</span> Moving your eyes to scan near and far areas</div>
+            <div class="answer"><span class="answer-label">C)</span> Listening to loud music</div>
+            <div class="answer"><span class="answer-label">D)</span> Driving faster</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) Moving your eyes to scan near and far areas</strong>
+            <div class="handbook-quote">"To avoid highway hypnosis, shift your eyes from one area of the roadway to another and focus them on various objects near and far, left and right."</div>
+            <div class="source-link">Source: <a href="#fatigue">California Driver's Handbook – Fatigue</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 86</div>
+        <div class="question-text">When turning left from a multiple-lane one-way street onto another one-way street, where should you start?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> From the center lane</div>
+            <div class="answer"><span class="answer-label">B)</span> From the far right lane</div>
+            <div class="answer correct"><span class="answer-label">C)</span> From the far left lane</div>
+            <div class="answer"><span class="answer-label">D)</span> Any lane that appears clear</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) From the far left lane</strong>
+            <div class="handbook-quote">"When turning left from a one-way street with multiple lanes, begin the turn from the far left lane."</div>
+            <div class="source-link">Source: <a href="#turns">California Driver's Handbook – Turns</a></div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-number">Question 87</div>
+        <div class="question-text">How close can you legally park to a railroad track in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 10 feet</div>
+            <div class="answer"><span class="answer-label">B)</span> 15 feet</div>
+            <div class="answer correct"><span class="answer-label">C)</span> 7.5 feet</div>
+            <div class="answer"><span class="answer-label">D)</span> 20 feet</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) 7.5 feet</strong>
+            <div class="handbook-quote">"You must not park within 7.5 feet of a railroad track."</div>
+            <div class="source-link">Source: <a href="#parking">California Driver's Handbook – Parking</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 88</div>
+        <div class="question-text">How many points in 12 months will result in a license suspension under the NOTS program?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 2</div>
+            <div class="answer"><span class="answer-label">B)</span> 3</div>
+            <div class="answer correct"><span class="answer-label">C)</span> 4</div>
+            <div class="answer"><span class="answer-label">D)</span> 6</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) 4</strong>
+            <div class="handbook-quote">"Under the Negligent Operator Treatment System (NOTS), your driver’s license will be suspended if you receive 4 points in 12 months."</div>
+            <div class="source-link">Source: <a href="#nots">California Driver's Handbook – NOTS</a></div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-number">Question 89</div>
+        <div class="question-text">When making a right turn, what should you do before turning the wheel?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> Look both ways, yield if necessary, and use hand-over-hand steering</div>
+            <div class="answer"><span class="answer-label">B)</span> Signal and brake suddenly</div>
+            <div class="answer"><span class="answer-label">C)</span> Only look to the right</div>
+            <div class="answer"><span class="answer-label">D)</span> Shift to neutral before turning</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) Look both ways, yield if necessary, and use hand-over-hand steering</strong>
+            <div class="handbook-quote">"When making a right turn, look both ways, yield the right-of-way if needed, and turn the steering wheel using hand-over-hand steering."</div>
+            <div class="source-link">Source: <a href="#turning">California Driver's Handbook – Turning</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 90</div>
+        <div class="question-text">What is the minimum age requirement to obtain an adult instruction permit in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 16</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 18</div>
+            <div class="answer"><span class="answer-label">C)</span> 21</div>
+            <div class="answer"><span class="answer-label">D)</span> 17</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 18</strong>
+            <div class="handbook-quote">"The minimum age for an adult instruction permit in California is 18 years old."</div>
+            <div class="source-link">Source: <a href="#instruction-permits">California Driver's Handbook – Instruction Permits</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 91</div>
+        <div class="question-text">What is an ignition interlock device (IID) used for in California DUI penalties?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> It locks the car if the driver is speeding</div>
+            <div class="answer correct"><span class="answer-label">B)</span> It prevents the engine from starting if alcohol is detected</div>
+            <div class="answer"><span class="answer-label">C)</span> It limits the car to 30 mph</div>
+            <div class="answer"><span class="answer-label">D)</span> It locks the seatbelt in place</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) It prevents the engine from starting if alcohol is detected</strong>
+            <div class="handbook-quote">"An IID prevents a vehicle from starting if the driver has a measurable amount of alcohol in their breath."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook – DUI Laws</a></div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-number">Question 92</div>
+        <div class="question-text">If you are parked facing uphill on a steep road and have a manual transmission, which gear should you leave the vehicle in?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Reverse</div>
+            <div class="answer correct"><span class="answer-label">B)</span> First</div>
+            <div class="answer"><span class="answer-label">C)</span> Neutral</div>
+            <div class="answer"><span class="answer-label">D)</span> Second</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) First</strong>
+            <div class="handbook-quote">"If you park on a hill with a manual transmission, leave the vehicle in first gear when facing uphill."</div>
+            <div class="source-link">Source: <a href="#parking">California Driver's Handbook – Parking on Hills</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 93</div>
+        <div class="question-text">What is the consequence of lending your vehicle to an unlicensed driver in California?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> Your vehicle may be impounded for 30 days</div>
+            <div class="answer"><span class="answer-label">B)</span> The unlicensed driver will be fined</div>
+            <div class="answer"><span class="answer-label">C)</span> No consequence if you didn't know</div>
+            <div class="answer"><span class="answer-label">D)</span> Only a warning issued</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) Your vehicle may be impounded for 30 days</strong>
+            <div class="handbook-quote">"If you lend your vehicle to an unlicensed driver, knowingly or not, it may be impounded for 30 days."</div>
+            <div class="source-link">Source: <a href="#license">California Driver's Handbook – License Requirements</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 94</div>
+        <div class="question-text">Which of the following vehicles may be operated with a Class C driver's license in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> A bus with 30 passengers</div>
+            <div class="answer correct"><span class="answer-label">B)</span> A housecar (RV) less than 40 feet in length</div>
+            <div class="answer"><span class="answer-label">C)</span> A semi-truck</div>
+            <div class="answer"><span class="answer-label">D)</span> A motorcycle with more than 3 wheels</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) A housecar (RV) less than 40 feet in length</strong>
+            <div class="handbook-quote">"A Class C license allows operation of a two-axle vehicle under 26,000 pounds, a housecar less than 40 feet, and a vanpool for 10–15 people."</div>
+            <div class="source-link">Source: <a href="#license-classes">California Driver's Handbook – License Classes</a></div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-number">Question 95</div>
+        <div class="question-text">When driving with a California minor’s instruction permit, who must accompany the driver?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> A licensed adult age 25 or older</div>
+            <div class="answer"><span class="answer-label">B)</span> A parent or guardian of any age</div>
+            <div class="answer"><span class="answer-label">C)</span> Any adult with a valid license</div>
+            <div class="answer"><span class="answer-label">D)</span> A driver's education teacher</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) A licensed adult age 25 or older</strong>
+            <div class="handbook-quote">"A minor with an instruction permit must be accompanied by a California-licensed driver 25 years of age or older."</div>
+            <div class="source-link">Source: <a href="#instruction-permits">California Driver's Handbook – Minors' Instruction Permits</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 96</div>
+        <div class="question-text">What is the maximum legal BAC (blood alcohol concentration) for drivers 21 and older in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 0.10%</div>
+            <div class="answer"><span class="answer-label">B)</span> 0.05%</div>
+            <div class="answer correct"><span class="answer-label">C)</span> 0.08%</div>
+            <div class="answer"><span class="answer-label">D)</span> 0.02%</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) 0.08%</strong>
+            <div class="handbook-quote">"For drivers age 21 or older, it is illegal to drive with a BAC of 0.08% or higher."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook – DUI Laws</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 97</div>
+        <div class="question-text">What BAC level triggers DUI penalties for drivers under 21 in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 0.08%</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 0.05%</div>
+            <div class="answer"><span class="answer-label">C)</span> 0.02%</div>
+            <div class="answer"><span class="answer-label">D)</span> 0.10%</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 0.05%</strong>
+            <div class="handbook-quote">"If a driver under 21 has a BAC of 0.05% or higher, they will face suspension and be arrested for DUI."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook – DUI Laws for Minors</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 98</div>
+        <div class="question-text">What happens if a minor driver has a BAC of 0.05% or higher in a preliminary test?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> They may be required to take a secondary chemical test</div>
+            <div class="answer"><span class="answer-label">B)</span> They are immediately jailed</div>
+            <div class="answer"><span class="answer-label">C)</span> They are given a warning only</div>
+            <div class="answer"><span class="answer-label">D)</span> They are cited and allowed to drive home</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) They may be required to take a secondary chemical test</strong>
+            <div class="handbook-quote">"If a minor driver’s preliminary test shows a BAC of 0.05% or more, they may be required to take a second test."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook – Underage DUI Enforcement</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 99</div>
+        <div class="question-text">How many drinks will typically make a 140-pound woman legally intoxicated?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 1</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 2</div>
+            <div class="answer"><span class="answer-label">C)</span> 3</div>
+            <div class="answer"><span class="answer-label">D)</span> 4</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 2</strong>
+            <div class="handbook-quote">"An average 140-pound woman will become legally intoxicated after consuming about 2 drinks."</div>
+            <div class="source-link">Source: <a href="#alcohol">California Driver's Handbook – Alcohol Effects</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 100</div>
+        <div class="question-text">What is the penalty for injuring someone while driving under the influence?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> A citation and a warning</div>
+            <div class="answer"><span class="answer-label">B)</span> A suspended license for 6 months</div>
+            <div class="answer correct"><span class="answer-label">C)</span> A 1-year suspension of driving privileges</div>
+            <div class="answer"><span class="answer-label">D)</span> Required driver education only</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) A 1-year suspension of driving privileges</strong>
+            <div class="handbook-quote">"If you injure another person as a result of DUI, your driving privileges will be suspended for 1 year."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook – DUI Injury Consequences</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 101</div>
+        <div class="question-text">What happens if a California driver under age 21 has a BAC of 0.05% or higher in a preliminary test?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> They are allowed to continue driving</div>
+            <div class="answer correct"><span class="answer-label">B)</span> They may be required to take a secondary test</div>
+            <div class="answer"><span class="answer-label">C)</span> They must attend alcohol counseling</div>
+            <div class="answer"><span class="answer-label">D)</span> They receive a written warning</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) They may be required to take a secondary test</strong>
+            <div class="handbook-quote">"If a minor driver’s preliminary test shows a BAC of 0.05% or more, they may be required to take a second test."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 102</div>
+        <div class="question-text">How many alcoholic drinks will typically make an average 140-pound woman legally intoxicated?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 1 drink</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 2 drinks</div>
+            <div class="answer"><span class="answer-label">C)</span> 3 drinks</div>
+            <div class="answer"><span class="answer-label">D)</span> 4 drinks</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 2 drinks</strong>
+            <div class="handbook-quote">"An average 140-pound woman will become legally intoxicated after consuming about 2 drinks."</div>
+            <div class="source-link">Source: <a href="#alcohol">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 103</div>
+        <div class="question-text">What is the license consequence of injuring someone while driving under the influence in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> A fine only</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 1-year license suspension</div>
+            <div class="answer"><span class="answer-label">C)</span> Vehicle impoundment</div>
+            <div class="answer"><span class="answer-label">D)</span> Mandatory prison time</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 1-year license suspension</strong>
+            <div class="handbook-quote">"If you injure another person as a result of DUI, your driving privileges will be suspended for 1 year."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 104</div>
+        <div class="question-text">What is the maximum fine for an under-21 driver caught with alcohol in their vehicle?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> $100</div>
+            <div class="answer"><span class="answer-label">B)</span> $250</div>
+            <div class="answer"><span class="answer-label">C)</span> $500</div>
+            <div class="answer correct"><span class="answer-label">D)</span> $1000</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: D) $1000</strong>
+            <div class="handbook-quote">"A California driver under the age of 21 who is caught with alcoholic beverages in the vehicle may be fined up to $1000."</div>
+            <div class="source-link">Source: <a href="#underage">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 105</div>
+        <div class="question-text">For how long may the vehicle be impounded if a driver under 21 is caught with alcohol inside?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Up to 10 days</div>
+            <div class="answer correct"><span class="answer-label">B)</span> Up to 30 days</div>
+            <div class="answer"><span class="answer-label">C)</span> Until BAC returns to zero</div>
+            <div class="answer"><span class="answer-label">D)</span> Up to 7 days</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) Up to 30 days</strong>
+            <div class="handbook-quote">"If a CA driver under the age of 21 is caught with alcohol in the vehicle, the state may impound the vehicle for up to 30 days."</div>
+            <div class="source-link">Source: <a href="#underage">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 106</div>
+        <div class="question-text">How long can a license be revoked after two or more DUI convictions?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 2 years</div>
+            <div class="answer"><span class="answer-label">B)</span> 3 years</div>
+            <div class="answer"><span class="answer-label">C)</span> 4 years</div>
+            <div class="answer correct"><span class="answer-label">D)</span> 5 years</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: D) 5 years</strong>
+            <div class="handbook-quote">"Two or more DUI convictions may result in up to 5 years of license revocation."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 107</div>
+        <div class="question-text">What is the suspension duration if your BAC is 0.20% or higher and referred to DUI treatment?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 6 months</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 10 months</div>
+            <div class="answer"><span class="answer-label">C)</span> 1 year</div>
+            <div class="answer"><span class="answer-label">D)</span> 2 years</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 10 months</strong>
+            <div class="handbook-quote">"If your BAC is 0.20% or higher and referred to DUI treatment, your driver's license will be suspended for 10 months."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 108</div>
+        <div class="question-text">If a driver's first DUI conviction has a BAC of 0.20% or higher, how long is the license suspension?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 6 months</div>
+            <div class="answer"><span class="answer-label">B)</span> 8 months</div>
+            <div class="answer correct"><span class="answer-label">C)</span> 10 months</div>
+            <div class="answer"><span class="answer-label">D)</span> 12 months</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) 10 months</strong>
+            <div class="handbook-quote">"A first DUI conviction with BAC of 0.20% or higher leads to a 10-month license suspension."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 109</div>
+        <div class="question-text">What is the minimum suspension duration for a first DUI conviction in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 3 months</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 6 months</div>
+            <div class="answer"><span class="answer-label">C)</span> 9 months</div>
+            <div class="answer"><span class="answer-label">D)</span> 12 months</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 6 months</strong>
+            <div class="handbook-quote">"For a first DUI conviction, the court will suspend the license for at least 6 months."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 110</div>
+        <div class="question-text">What is the consequence of an alcohol conviction between ages 13–21?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Fine only</div>
+            <div class="answer"><span class="answer-label">B)</span> No consequence</div>
+            <div class="answer correct"><span class="answer-label">C)</span> 1-year license suspension or delay</div>
+            <div class="answer"><span class="answer-label">D)</span> Mandatory classes only</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) 1-year license suspension or delay</strong>
+            <div class="handbook-quote">"If convicted of alcohol use between 13–21, license will be suspended or eligibility delayed for 1 year."</div>
+            <div class="source-link">Source: <a href="#underage">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 111</div>
+        <div class="question-text">How long does a DUI conviction stay on a driver's record in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 5 years</div>
+            <div class="answer"><span class="answer-label">B)</span> 7 years</div>
+            <div class="answer"><span class="answer-label">C)</span> 8 years</div>
+            <div class="answer correct"><span class="answer-label">D)</span> 10 years</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: D) 10 years</strong>
+            <div class="handbook-quote">"A DUI conviction will remain on a driver’s record for 10 years."</div>
+            <div class="source-link">Source: <a href="#DUI">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 112</div>
+        <div class="question-text">What is the license consequence for an underage driver convicted of DUI?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Suspension for 30 days</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 1-year revocation and DUI program</div>
+            <div class="answer"><span class="answer-label">C)</span> Fine only</div>
+            <div class="answer"><span class="answer-label">D)</span> Warning issued</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 1-year revocation and DUI program</strong>
+            <div class="handbook-quote">"An underage DUI conviction results in a 1-year revocation and mandatory DUI education program."</div>
+            <div class="source-link">Source: <a href="#underage">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 113</div>
+        <div class="question-text">What is the minimum property damage coverage required on a CA auto insurance policy?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> $3,000</div>
+            <div class="answer correct"><span class="answer-label">B)</span> $5,000</div>
+            <div class="answer"><span class="answer-label">C)</span> $7,500</div>
+            <div class="answer"><span class="answer-label">D)</span> $10,000</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) $5,000</strong>
+            <div class="handbook-quote">"The minimum your insurance must cover is $5,000 for property damage."</div>
+            <div class="source-link">Source: <a href="#insurance">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 114</div>
+        <div class="question-text">What happens after 3 or more at-fault collisions or convictions on a provisional license in 12 months?</div>
+        <div class="answers">
+            <div class="answer correct"><span class="answer-label">A)</span> 6-month suspension</div>
+            <div class="answer"><span class="answer-label">B)</span> Warning only</div>
+            <div class="answer"><span class="answer-label">C)</span> 1-month suspension</div>
+            <div class="answer"><span class="answer-label">D)</span> License is revoked</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: A) 6-month suspension</strong>
+            <div class="handbook-quote">"Three or more at-fault collisions or convictions in 12 months will result in a 6-month suspension."</div>
+            <div class="source-link">Source: <a href="#provisional">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 115</div>
+        <div class="question-text">What is the fine range if someone is seriously injured during a police pursuit?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> $500–$1,000</div>
+            <div class="answer correct"><span class="answer-label">B)</span> $2,000–$10,000</div>
+            <div class="answer"><span class="answer-label">C)</span> $1,500–$5,000</div>
+            <div class="answer"><span class="answer-label">D)</span> $10,000–$15,000</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) $2,000–$10,000</strong>
+            <div class="handbook-quote">"If someone is seriously injured in a police pursuit, the driver can be fined between $2,000 and $10,000."</div>
+            <div class="source-link">Source: <a href="#police-pursuits">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 116</div>
+        <div class="question-text">After a second at-fault collision or conviction, how long is a provisional licensee restricted unless accompanied by an adult?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 14 days</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 30 days</div>
+            <div class="answer"><span class="answer-label">C)</span> 60 days</div>
+            <div class="answer"><span class="answer-label">D)</span> 90 days</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 30 days</strong>
+            <div class="handbook-quote">"After a second at-fault collision or conviction, a provisional licensee cannot drive for 30 days unless accompanied by a licensed parent or guardian or other licensed adult 25 years of age or older."</div>
+            <div class="source-link">Source: <a href="#provisional">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 117</div>
+        <div class="question-text">What is the penalty for smoking inside a vehicle with a minor present in California?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> $50</div>
+            <div class="answer correct"><span class="answer-label">B)</span> $100</div>
+            <div class="answer"><span class="answer-label">C)</span> $150</div>
+            <div class="answer"><span class="answer-label">D)</span> $200</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) $100</strong>
+            <div class="handbook-quote">"Smoking inside a vehicle when a minor is present can result in a fine of up to $100."</div>
+            <div class="source-link">Source: <a href="#safety">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 118</div>
+        <div class="question-text">What percentage of teen drivers in California are convicted of a traffic violation in their first year?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 25%</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 50%</div>
+            <div class="answer"><span class="answer-label">C)</span> 75%</div>
+            <div class="answer"><span class="answer-label">D)</span> 10%</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 50%</strong>
+            <div class="handbook-quote">"Almost 50% of California drivers between 15 and 19 years of age are convicted of at least one traffic violation in their first year of driving."</div>
+            <div class="source-link">Source: <a href="#teen-drivers">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 119</div>
+        <div class="question-text">What is the minimum distance you must park away from a railroad track?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> 10 feet</div>
+            <div class="answer correct"><span class="answer-label">B)</span> 7.5 feet</div>
+            <div class="answer"><span class="answer-label">C)</span> 5 feet</div>
+            <div class="answer"><span class="answer-label">D)</span> 15 feet</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: B) 7.5 feet</strong>
+            <div class="handbook-quote">"You must not park within 7.5 feet of a railroad track."</div>
+            <div class="source-link">Source: <a href="#parking">California Driver's Handbook</a></div>
+        </div>
+    </div>
+
+    <div class="question">
+        <div class="question-number">Question 120</div>
+        <div class="question-text">At what height or age may children use a regular safety belt instead of a child restraint system?</div>
+        <div class="answers">
+            <div class="answer"><span class="answer-label">A)</span> Age 6 or 4 feet 6 inches</div>
+            <div class="answer"><span class="answer-label">B)</span> Age 9 or 4 feet 6 inches</div>
+            <div class="answer correct"><span class="answer-label">C)</span> Age 8 or 4 feet 9 inches</div>
+            <div class="answer"><span class="answer-label">D)</span> Age 10 or 5 feet</div>
+        </div>
+        <div class="explanation">
+            <strong>Correct Answer: C) Age 8 or 4 feet 9 inches</strong>
+            <div class="handbook-quote">"Children who are 8 years or older, or have reached at least 4 feet 9 inches in height, may use a properly secured safety belt."</div>
+            <div class="source-link">Source: <a href="#child-safety">California Driver's Handbook</a></div>
+        </div>
+    </div>
+</div>
+
+    <div class="section">
+        <h2 class="section-title">📊 Test Results Summary</h2>
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <h3 style="color: #1e3c72; margin-top: 0;">Test Categories Covered:</h3>
+            <ul style="line-height: 1.8;">
+                <li><strong>Speed Limits & Traffic Controls:</strong> 6 questions (Questions 1-6)</li>
+                <li><strong>Distances & Following:</strong> 14 questions (Questions 7-20)</li>
+                <li><strong>Blood Alcohol & DUI:</strong> 6 questions (Questions 21-26)</li>
+                <li><strong>Ages & Minors:</strong> 7 questions (Questions 27-33)</li>
+                <li><strong>Fines & Penalties:</strong> 6 questions (Questions 34-39)</li>
+                <li><strong>Time Requirements:</strong> 7 questions (Questions 40-46)</li>
+                <li><strong>Vehicle & Equipment Specifications:</strong> 7 questions (Questions 47-53)</li>
+                <li><strong>Financial Requirements:</strong> 5 questions (Questions 54-58)</li>
+                <li><strong>Violation Points & Traffic Records:</strong> 2 questions (Questions 59-60)</li>
+            </ul>
+            <p style="margin-bottom: 0;"><strong>Total Questions:</strong> 60 | <strong>All answers sourced from:</strong> California DMV Driver's Handbook (2020 Edition)</p>
+        </div>
+    </div>
+
+    <div style="background: #e7f3ff; border: 1px solid #2a5298; border-radius: 8px; padding: 20px; margin: 25px 0;">
+        <h3 style="color: #1e3c72; margin-top: 0;">📚 Study Tips</h3>
+        <ul style="line-height: 1.8;">
+            <li>Focus on memorizing specific numbers: speeds, distances, time periods, and dollar amounts</li>
+            <li>Pay special attention to age requirements for minors and supervision requirements</li>
+            <li>Remember the different BAC limits for different age groups and vehicle types</li>
+            <li>Study the insurance minimums and financial responsibility requirements</li>
+            <li>Practice calculating stopping distances and following times</li>
+            <li>Memorize parking distances (fire hydrants, crosswalks, railroad tracks)</li>
+            <li>Know signaling requirements and timing for different situations</li>
+        </ul>
+    </div>
+
+<footer style="margin-top: 50px; text-align: center; font-size: 1.1em;">
+    ✅ Correct Answers: <span id="correct-count">0</span>
+</footer>
+
+<script>
+    // Track answer visibility
+    let answersVisible = false;
+
+    function toggleAnswers() {
+        const body = document.body;
+        const button = document.querySelector('.show-answers-btn');
+
+        if (answersVisible) {
+            body.classList.add('answers-hidden');
+            button.textContent = 'Show Answers & Explanations';
+        } else {
+            body.classList.remove('answers-hidden');
+            button.textContent = 'Hide Answers & Explanations';
+        }
+
+        answersVisible = !answersVisible;
+    }
+
+    // Ensure answers are hidden on initial load
+    document.addEventListener('DOMContentLoaded', function () {
+        //document.body.classList.add('answers-hidden');
+
+        let correctCount = 0;
+        const correctDisplay = document.getElementById("correct-count");
+        const questions = document.querySelectorAll(".question");
+
+        questions.forEach((question) => {
+            const answers = question.querySelectorAll(".answer");
+            const explanation = question.querySelector(".explanation");
+
+            answers.forEach((answer) => {
+                answer.addEventListener("click", () => {
+                    if (question.classList.contains("answered")) return;
+                    question.classList.add("answered");
+
+                    if (answer.classList.contains("correct")) {
+                        answer.style.backgroundColor = "#d4edda";
+                        answer.style.borderColor = "#28a745";
+                        correctCount++;
+                        correctDisplay.textContent = correctCount;
+                    } else {
+                        answer.style.backgroundColor = "#f8d7da";
+                        answer.style.borderColor = "#dc3545";
+                    }
+
+                    if (explanation) {
+                        explanation.style.display = "block";
+                    }
+                });
+            });
+        });
+    });
+</script>
+    
+</body>
+
+</html>
